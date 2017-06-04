@@ -17,11 +17,11 @@ function connect() {
     });
 }
 
-function getUrlConnection() {
+function getUrlConnection(){
     return 'mongodb://'
-        + db.usuario + ':'
+        + db.usuario +':'
         + db.senha
-        +'@ds155841.mlab.com:55841/mean-delta';
+        +'@ds019970.mlab.com:19970/notes';
 }
 
 module.exports = MongoDBConnection();
